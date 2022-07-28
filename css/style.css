@@ -1,0 +1,158 @@
+.bg-dark {
+    background-color: #070504!important;
+}
+
+.text-dark {
+    color: #070504!important;
+}
+
+.text-light {
+    color: #fffaee!important;
+}
+
+.text-secondary {
+    color: #e6b32a!important;
+}
+
+.text-danger {
+    color: #700b00!important;
+}
+
+.nav-hover {
+    transition: all 0.1s;
+}
+
+.nav-hover:hover {
+    transform: scale(1.03);
+    color: #E4C05D!important;
+}
+
+.text-justify {
+    text-align: justify!important;
+}
+
+.header {
+    background-color: rgba(7, 5, 4, 0.3);
+}
+
+.mainH {
+    padding: 10rem 0 10rem 0;
+}
+
+.mainHs {
+    color: #fffaee;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.mainHs:nth-child(even) {
+    color: #b61200;
+    text-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+.main-bg {
+    background-image: url(../imgs/mainbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section2 {
+    padding: 0 0 10rem 0;
+}
+
+.carousel-img {
+    width: 9rem;
+    border-radius: 50%;
+}
+
+.bi-star-fill {
+    fill: #e6b32a!important;
+    stroke: #070504;
+}
+
+.aboutCard {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0rem 2rem rgb(53, 53, 53);
+    height: 100%!important;
+}
+
+.area-card {
+    width: 13rem !important;
+    height: 20rem !important;
+}
+
+#contactForm {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+}
+
+#contactForm::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(3px);
+    background-image: url(../imgs/mainbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.btn-areas {
+    border-radius: 0!important;
+    background-color: rgba(0, 0, 0, 1)!important;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.1s;
+}
+
+.btn-areas:hover {
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 1);
+}
+
+.btn-areas::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url(../imgs/mainbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(10px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.carousel-container {
+    box-shadow: inset 0rem 0rem 3rem rgb(0, 0, 0);;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .titleResponsive {
+        font-size: 10vw;
+    }
+
+    .subtitleResponsive {
+        font-size: 8vw;
+    }
+
+    .textResponsive {
+        font-size: 6vw;
+    }
+
+    .mainHs {
+        text-align: center;
+    }
+    .localization {
+        flex-wrap: wrap!important   ;
+    }
+}
